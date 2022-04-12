@@ -1,0 +1,31 @@
+h1{
+    text-align: left;
+}
+
+input[type=text]{
+    width: 5%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  input[type=text]:focus {
+    border: 2px solid #555;
+  }
+
+  button[type="button"]{
+      background-color: lightgreen;
+      border-radius: 4px;
+      padding-top: .2em;
+      padding-bottom: .2em;
+  }
+
+
+
+
+
+

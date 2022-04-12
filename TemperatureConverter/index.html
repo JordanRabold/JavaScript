@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Fahrenheit to Celsius Calculator</title>
+</head>
+
+<body>
+    
+    <h1>Fahrenheit to Celsius Calculator</h1>
+    <h2>This program will convert fahrenheit(F) to celsius(C)</h2>
+    <form>
+        <label for="fahrenheit">Enter Fahrenheit Temp:</label>
+        <input id="fahrenheit" type="text">
+        <span id="fahrenheitError">*</span>
+        <br>
+
+        <button onclick="main();" type="button">Calculate</button>
+        <br>
+
+        <label for="celsius">Celsius Temp: </label>
+        <input id="celsius2" type="text">
+        <span id="celsiusSolution"></span>
+        <br>
+    </form>
+
+    <h2 id="fahrenheitTemp"></h2>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
