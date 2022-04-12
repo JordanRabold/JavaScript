@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">	
+    <title>Calculate MPG</title>
+    <link rel="stylesheet" href="mpg.css">
+    <script src="mpg.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Calculate Miles Per Gallon</h1>
+        <label for="miles">Miles Driven:</label>
+		<input ondblclick="clearMiles()" type="text" id="miles"><span id="milesError">*</span><br>
+        
+        
+        <label for="gallons">Gallons of Gas Used:</label> 
+        <input ondblclick="clearGallons()" type="text" id="gallons"><span id="gallonsError">*</span><br>
+        
+
+        <label for="mpg">Miles Per Gallon</label>
+        <input type="text" id="mpg" disabled><br>
+
+        <label>&nbsp;</label>
+        <input onclick="main()" type="button" id="calculate" value="Calculate MPG"><br>
+
+        <label>&nbsp;</label>
+        <input onclick="clearEntries() "type="button" id="clear" value="Clear Entries"><br>
+    </main>
+</body>
+</html>
