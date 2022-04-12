@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="refresh">
+	<title>Make Change</title>
+   	<link rel="stylesheet" href="styles.css">
+    <script src="make_change.js"></script>
+</head>
+
+<body>
+<main>
+    <h1>Change Calculator</h1>
+
+    <label>Enter amount of change due:</label>
+    <input type="text" id="cents"/>
+    <input onclick="onLoad()" type="button" value="Calculate" name="calculate" id="calculate" /><br>
+    <br>
+
+    <label>Dollars:</label>
+    <input type="text" id="dollars" disabled><br>
+
+    <label>Quarters:</label>
+    <input type="text" id="quarters" disabled><br>
+					
+    <label>Dimes:</label>
+    <input type="text" id="dimes" disabled><br>
+	
+    <label>Nickels:</label>
+    <input type="text" id="nickels" disabled><br>
+		
+    <label>Pennies:</label>
+    <input type="text" id="pennies" disabled><br>
+
+    <button id="goAgainButton" type="button" onclick= "goAgainButton()">Go Again?</button>
+    
+    <audio id="coinRattle">
+        <source src="/audio/119440__lmbubec__coins-on-table-a.mp3" type="audio/mpeg">
+    </audio> 
+
+</main>
+</body>
+</html>
